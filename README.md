@@ -18,7 +18,7 @@ This operation transfers money from the user account to another user account.
 For that we used mySQL database. For convinience, we have used a user list.
 To continue in our project first you have to paste the following query in mySQL command prompt.
 
----
+###
 
 drop database oasis_atm;
 create database oasis_atm;
@@ -44,7 +44,7 @@ INSERT INTO TR5555 VALUES(1,"2009-02-23","ACCOUNT CREATION",5000,0,5000);
 CREATE TABLE TR6666(SERIALNO INT PRIMARY KEY,DATEOFTRANSACT DATE,DESCRIPTION VARCHAR(30),CREDIT FLOAT,DEBIT FLOAT,BALANCE FLOAT);
 INSERT INTO TR6666 VALUES(1,"2007-10-28","ACCOUNT CREATION",4000,0,4000);
 
----
+###
 
 ID Password of the above demo users are given below for login operation:
 
