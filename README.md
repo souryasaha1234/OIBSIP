@@ -2,21 +2,21 @@
 
 ## ATM Interface
 
-    It is a console base project
-    Here we have to first log into our account using user id and password. Then we can do our operations there.
+It is a console base project
+Here we have to first log into our account using user id and password. Then we can do our operations there.
 
-    The operations in our application are:
-    1.Transaction History
-    This operation shows a table which is showing transaction history of the user
-    2.Withdraw
-    This operation makes a withdrawl operaion from user account.
-    3.Deposit
-    This operation makes a deposit operaion in user account.
-    4.Transfer
-    This operation transfers money from the user account to another user account.
+The operations in our application are:
+1.Transaction History
+This operation shows a table which is showing transaction history of the user
+2.Withdraw
+This operation makes a withdrawl operaion from user account.
+3.Deposit
+This operation makes a deposit operaion in user account.
+4.Transfer
+This operation transfers money from the user account to another user account.
 
-    For that we used mySQL database. For convinience, we have used a user list.
-    To continue in our project first you have to paste the following query in mySQL command prompt.
+For that we used mySQL database. For convinience, we have used a user list.
+To continue in our project first you have to paste the following query in mySQL command prompt.
 
 ###
     drop database oasis_atm;
@@ -46,22 +46,24 @@
 
 ID Password of the above demo users are given below for login operation:
 
-USER ID PASSWORD
-AAA 1111 1111
-BBB 2222 2222
-CCC 3333 3333
-DDD 4444 4444
-EEE 5555 5555
-FFF 6666 6666
+###
+    USER ID PASSWORD
+    AAA 1111 1111
+    BBB 2222 2222
+    CCC 3333 3333
+    DDD 4444 4444
+    EEE 5555 5555
+    FFF 6666 6666
+###
 
 ## Number Guessing Game
 
-    This project is a server base servlet apllication
-    To run this application you must use a server.
+This project is a server base servlet apllication
+To run this application you must use a server.
 
-    It takes a number as input from user.
-    In backend it generates a random number between 1 to 100.
-    It is 40 seconds game. You have to guess the correct number within the time.
-    It matches the number with the input and response the user if the number smaller or larger than the correct answer.
-    It will give chances untill user gives correct input.
-    When user gives correct input it displays it as correct input.
+It takes a number as input from user.
+In backend it generates a random number between 1 to 100.
+It is 40 seconds game. You have to guess the correct number within the time.
+It matches the number with the input and response the user if the number smaller or larger than the correct answer.
+It will give chances untill user gives correct input.
+When user gives correct input it displays it as correct input.
