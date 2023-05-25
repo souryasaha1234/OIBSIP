@@ -2,13 +2,9 @@ package com.oasis.numberGuessing;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-/*
- 
-import java.math.MathContext;
-import java.util.Enumeration;
 
-import javax.servlet.ServletContext;
- */
+// import javax.servlet.ServletContext;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -17,9 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 //import javax.servlet.http.HttpSessionContext;
 
-/**
- * Servlet implementation class Http
- */
 @WebServlet("/Number_guessing_game")
 public class Number_guessing_game extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -29,7 +22,6 @@ public class Number_guessing_game extends HttpServlet {
      */
     public Number_guessing_game() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
