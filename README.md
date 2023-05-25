@@ -6,14 +6,15 @@ It is a console base project
 Here we have to first log into our account using user id and password. Then we can do our operations there.
 
 The operations in our application are:
-1.Transaction History
-This operation shows a table which is showing transaction history of the user
-2.Withdraw
-This operation makes a withdrawl operaion from user account.
-3.Deposit
-This operation makes a deposit operaion in user account.
-4.Transfer
-This operation transfers money from the user account to another user account.
+
+    1.Transaction History
+        This operation shows a table which is showing transaction history of the user
+    2.Withdraw
+        This operation makes a withdrawl operaion from user account.
+    3.Deposit
+        This operation makes a deposit operaion in user account.
+    4.Transfer
+        This operation transfers money from the user account to another user account.
 
 For that we used mySQL database. For convinience, we have used a user list.
 To continue in our project first you have to paste the following query in mySQL command prompt.
